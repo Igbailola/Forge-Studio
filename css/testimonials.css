@@ -1,0 +1,106 @@
+/* ============================================
+   Forge Studio — Testimonials Page
+   ============================================ */
+
+/* ---- Testimonials Hero ---- */
+.testimonials-hero {
+  background: linear-gradient(135deg, #FFFFFF 0%, #FFF8F5 50%, #FFF0EB 100%);
+  text-align: center;
+}
+
+.testimonials-hero__title {
+  font-size: var(--fs-h1);
+  letter-spacing: -1px;
+  margin-bottom: var(--space-6);
+}
+
+.testimonials-hero__desc {
+  font-size: var(--fs-body-lg);
+  color: var(--color-muted);
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: var(--lh-body);
+}
+
+/* ---- Testimonials Full Grid ---- */
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--gap);
+}
+
+/* Larger featured testimonial */
+.testimonial-card--featured {
+  grid-column: span 2;
+  background: var(--color-primary);
+  color: var(--color-white);
+}
+
+.testimonial-card--featured .testimonial-card__quote {
+  color: var(--color-white);
+  font-size: var(--fs-body-lg);
+}
+
+.testimonial-card--featured .testimonial-card__name {
+  color: var(--color-white);
+}
+
+.testimonial-card--featured .testimonial-card__role {
+  color: var(--color-dark-muted);
+}
+
+/* ---- Stats Row ---- */
+.testimonials-stats {
+  background: var(--color-surface);
+}
+
+.testimonials-stats__inner {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--gap);
+  text-align: center;
+}
+
+.stat-item {
+  padding: var(--space-8) var(--space-4);
+}
+
+.stat-item__number {
+  font-family: var(--font-heading);
+  font-size: var(--fs-h2);
+  font-weight: var(--fw-bold);
+  color: var(--color-accent);
+  margin-bottom: var(--space-2);
+}
+
+.stat-item__label {
+  font-size: var(--fs-small);
+  color: var(--color-muted);
+}
+
+/* ============================================
+   Testimonials Responsive
+   ============================================ */
+@media (max-width: 1024px) {
+  .testimonials-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .testimonial-card--featured {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 767px) {
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial-card--featured {
+    grid-column: span 1;
+  }
+
+  .testimonials-stats__inner {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

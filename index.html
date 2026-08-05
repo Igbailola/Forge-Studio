@@ -1,0 +1,1221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forge Studio — We Design &amp; Build Digital Experiences That Matter</title>
+  <meta name="description" content="Forge Studio is a creative digital agency specializing in UI/UX design, website development, branding, and product design for startups and businesses.">
+  <meta name="keywords" content="digital agency, UI/UX design, web development, branding, product design">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/services.css">
+  <link rel="stylesheet" href="css/portfolio.css">
+  <link rel="stylesheet" href="css/testimonials.css">
+  <link rel="stylesheet" href="css/faq-contact.css">
+</head>
+<body>
+
+  <!-- ============================================
+       NAVBAR
+       ============================================ -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar__inner">
+      <a href="#/home" class="navbar__logo">Forge<span>.</span></a>
+
+      <div class="navbar__links">
+        <a href="#/home" class="navbar__link active">Home</a>
+        <a href="#/about" class="navbar__link">About</a>
+        <a href="#/services" class="navbar__link">Services</a>
+        <a href="#/portfolio" class="navbar__link">Portfolio</a>
+        <a href="#/testimonials" class="navbar__link">Testimonials</a>
+        <a href="#/faq-contact" class="navbar__link">FAQ &amp; Contact</a>
+      </div>
+
+      <a href="#/faq-contact" class="btn btn--primary btn--sm navbar__cta desktop-only">Get in Touch</a>
+
+      <div class="navbar__hamburger" id="hamburger" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="navbar__mobile-menu" id="mobile-menu">
+      <a href="#/home" class="navbar__mobile-link active">Home</a>
+      <a href="#/about" class="navbar__mobile-link">About</a>
+      <a href="#/services" class="navbar__mobile-link">Services</a>
+      <a href="#/portfolio" class="navbar__mobile-link">Portfolio</a>
+      <a href="#/testimonials" class="navbar__mobile-link">Testimonials</a>
+      <a href="#/faq-contact" class="navbar__mobile-link">FAQ &amp; Contact</a>
+      <a href="#/faq-contact" class="btn btn--primary" style="margin-top: 8px;">Get in Touch</a>
+    </div>
+  </nav>
+
+  <!-- ============================================
+       PAGE: HOME
+       ============================================ -->
+  <main class="page active" id="page-home">
+
+    <!-- Hero -->
+    <section class="hero section" id="hero">
+      <div class="container">
+        <div class="hero__inner">
+          <div class="hero__content fade-in">
+            <div class="hero__label">
+              <svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+              Creative Digital Agency
+            </div>
+            <h1 class="hero__title">
+              We design and build <span class="accent">digital experiences</span> that matter.
+            </h1>
+            <p class="hero__description">
+              We partner with ambitious startups and businesses to create beautiful, functional digital products that drive real results and meaningful impact.
+            </p>
+            <div class="hero__actions">
+              <a href="#/faq-contact" class="btn btn--primary btn--lg">Start a Project</a>
+              <a href="#/portfolio" class="btn btn--secondary btn--lg">View Our Work</a>
+            </div>
+            <div class="hero__stats">
+              <div>
+                <div class="hero__stat-number" data-count="150" data-suffix="+">0+</div>
+                <div class="hero__stat-label">Projects Delivered</div>
+              </div>
+              <div>
+                <div class="hero__stat-number" data-count="50" data-suffix="+">0+</div>
+                <div class="hero__stat-label">Happy Clients</div>
+              </div>
+              <div>
+                <div class="hero__stat-number" data-count="8" data-suffix="+">0+</div>
+                <div class="hero__stat-label">Years Experience</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__visual fade-in-right">
+            <div class="hero__image-wrapper">
+              <img src="assets/images/hero-visual.svg" alt="Forge Studio creative work showcase" id="hero-image">
+            </div>
+            <div class="hero__float hero__float--top">
+              <div class="hero__float-icon">
+                <svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+              </div>
+              <div>
+                <div class="hero__float-text">98% Satisfaction</div>
+                <div class="hero__float-sub">Client Rating</div>
+              </div>
+            </div>
+            <div class="hero__float hero__float--bottom">
+              <div class="hero__float-icon">
+                <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+              </div>
+              <div>
+                <div class="hero__float-text">150+ Projects</div>
+                <div class="hero__float-sub">Completed</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Preview -->
+    <section class="services-preview section" id="services-preview">
+      <div class="container">
+        <div class="section__header fade-in">
+          <span class="section__label">What We Do</span>
+          <h2>Services We Offer</h2>
+          <p class="section__subtitle">We provide end-to-end digital solutions that transform your ideas into impactful, user-centered products.</p>
+        </div>
+
+        <div class="grid grid--4 stagger">
+          <!-- UI/UX Design -->
+          <div class="service-card fade-in">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+            </div>
+            <h3 class="service-card__title">UI/UX Design</h3>
+            <p class="service-card__desc">Intuitive interfaces and seamless user experiences that delight your customers and drive engagement.</p>
+            <a href="#/services" class="btn btn--ghost">Learn More</a>
+          </div>
+
+          <!-- Web Development -->
+          <div class="service-card fade-in">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <h3 class="service-card__title">Web Development</h3>
+            <p class="service-card__desc">Fast, responsive, and scalable websites built with modern technologies and best practices.</p>
+            <a href="#/services" class="btn btn--ghost">Learn More</a>
+          </div>
+
+          <!-- Branding -->
+          <div class="service-card fade-in">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"/></svg>
+            </div>
+            <h3 class="service-card__title">Branding</h3>
+            <p class="service-card__desc">Compelling brand identities that tell your story and create lasting impressions in the minds of your audience.</p>
+            <a href="#/services" class="btn btn--ghost">Learn More</a>
+          </div>
+
+          <!-- Product Design -->
+          <div class="service-card fade-in">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+            </div>
+            <h3 class="service-card__title">Product Design</h3>
+            <p class="service-card__desc">End-to-end product design from research and ideation to prototyping and final delivery.</p>
+            <a href="#/services" class="btn btn--ghost">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Preview -->
+    <section class="portfolio-preview section section--surface" id="portfolio-preview">
+      <div class="container">
+        <div class="section__header fade-in">
+          <span class="section__label">Our Work</span>
+          <h2>Featured Projects</h2>
+          <p class="section__subtitle">A selection of our recent work that showcases our design expertise and development capabilities.</p>
+        </div>
+
+        <div class="grid grid--3 stagger">
+          <div class="portfolio-card fade-in">
+            <img class="portfolio-card__image" src="assets/images/project-1.svg" alt="Fintech mobile banking app design">
+            <div class="portfolio-card__body">
+              <span class="badge portfolio-card__badge">UI/UX</span>
+              <h3 class="portfolio-card__title">Nova Banking App</h3>
+              <p class="portfolio-card__desc">Mobile banking experience redesign for a fintech startup.</p>
+            </div>
+          </div>
+
+          <div class="portfolio-card fade-in">
+            <img class="portfolio-card__image" src="assets/images/project-2.svg" alt="E-commerce platform design">
+            <div class="portfolio-card__body">
+              <span class="badge portfolio-card__badge">Web Dev</span>
+              <h3 class="portfolio-card__title">Luxe Commerce</h3>
+              <p class="portfolio-card__desc">Full-stack e-commerce platform for a luxury fashion brand.</p>
+            </div>
+          </div>
+
+          <div class="portfolio-card fade-in">
+            <img class="portfolio-card__image" src="assets/images/project-3.svg" alt="SaaS dashboard design">
+            <div class="portfolio-card__body">
+              <span class="badge portfolio-card__badge">Product</span>
+              <h3 class="portfolio-card__title">Metric Dashboard</h3>
+              <p class="portfolio-card__desc">Analytics dashboard for a B2B SaaS platform.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-8 fade-in">
+          <a href="#/portfolio" class="btn btn--secondary">View All Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Preview -->
+    <section class="testimonials-preview section" id="testimonials-preview">
+      <div class="container">
+        <div class="section__header fade-in">
+          <span class="section__label">Testimonials</span>
+          <h2>What Our Clients Say</h2>
+          <p class="section__subtitle">Don't just take our word for it — hear from the teams and founders we've helped grow.</p>
+        </div>
+
+        <div class="grid grid--3 stagger">
+          <div class="testimonial-card fade-in">
+            <div class="testimonial-card__stars">
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <p class="testimonial-card__quote">"Forge Studio transformed our outdated website into a modern, conversion-optimized platform. Our leads increased by 340% within three months."</p>
+            <div class="testimonial-card__author">
+              <img class="testimonial-card__avatar" src="assets/images/avatar-1.svg" alt="Sarah Chen">
+              <div>
+                <div class="testimonial-card__name">Sarah Chen</div>
+                <div class="testimonial-card__role">CEO, TechVenture</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card fade-in">
+            <div class="testimonial-card__stars">
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <p class="testimonial-card__quote">"The team's attention to detail is remarkable. They didn't just design a product — they understood our users and created something truly special."</p>
+            <div class="testimonial-card__author">
+              <img class="testimonial-card__avatar" src="assets/images/avatar-2.svg" alt="Marcus Rodriguez">
+              <div>
+                <div class="testimonial-card__name">Marcus Rodriguez</div>
+                <div class="testimonial-card__role">Founder, Elevate Health</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card fade-in">
+            <div class="testimonial-card__stars">
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <p class="testimonial-card__quote">"Working with Forge Studio was a game-changer for our brand. They delivered a cohesive identity that perfectly captures who we are."</p>
+            <div class="testimonial-card__author">
+              <img class="testimonial-card__avatar" src="assets/images/avatar-3.svg" alt="Emily Watson">
+              <div>
+                <div class="testimonial-card__name">Emily Watson</div>
+                <div class="testimonial-card__role">CMO, GreenLeaf Co</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner" id="cta-banner">
+      <div class="container fade-in">
+        <h2 class="cta-banner__title">Ready to Start Your Next Project?</h2>
+        <p class="cta-banner__desc">Let's work together to create something extraordinary. Tell us about your vision.</p>
+        <a href="#/faq-contact" class="btn btn--primary btn--lg">Get in Touch</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================
+       PAGE: ABOUT
+       ============================================ -->
+  <main class="page" id="page-about">
+
+    <!-- About Hero -->
+    <section class="about-hero section">
+      <div class="container">
+        <div class="fade-in">
+          <span class="section__label">About Us</span>
+          <h1 class="about-hero__title">The Studio Behind the Screens</h1>
+          <p class="about-hero__desc">We're a team of designers, developers, and strategists passionate about crafting digital experiences that make a real difference.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Story -->
+    <section class="story section">
+      <div class="container">
+        <div class="story__inner">
+          <div class="story__image fade-in-left" role="img" aria-label="Forge Studio team at work">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%" style="border-radius: 16px;">
+              <defs>
+                <linearGradient id="storyBg" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#0F0F0F" />
+                  <stop offset="100%" stop-color="#1F1F2E" />
+                </linearGradient>
+              </defs>
+              <rect width="600" height="400" rx="16" fill="url(#storyBg)" />
+              <circle cx="300" cy="200" r="120" fill="#FF4D00" opacity="0.15" />
+              <g transform="translate(150, 100)">
+                <rect x="0" y="0" width="300" height="200" rx="12" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" />
+                <circle cx="150" cy="80" r="40" fill="url(#t1Bg)" />
+                <text x="150" y="150" font-family="sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">FORGE STUDIO</text>
+                <text x="150" y="175" font-family="sans-serif" font-size="12" fill="#FF4D00" text-anchor="middle">EST. 2018</text>
+              </g>
+            </svg>
+          </div>
+          <div class="fade-in-right">
+            <span class="story__label">Our Story</span>
+            <h2 class="story__title">Started With a Vision, Grew With Purpose</h2>
+            <p class="story__text">Forge Studio was born from a simple idea: great design should be accessible to every ambitious business, not just the ones with enterprise budgets.</p>
+            <p class="story__text">Founded in 2018, we started as a two-person team working out of a shared workspace. Today, we're a full-service digital studio with a diverse team of creatives who share one common goal — building digital experiences that truly matter.</p>
+            <p class="story__text">We've had the privilege of partnering with over 50 companies, from early-stage startups to established brands, helping them define their digital presence and connect with their audiences in meaningful ways.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mission -->
+    <section class="mission section section--surface">
+      <div class="container">
+        <div class="mission__card fade-in">
+          <span class="mission__label">Our Mission</span>
+          <p class="mission__text">To empower businesses with exceptional digital design and technology — creating products that are beautiful, functional, and built to last.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team -->
+    <section class="team section">
+      <div class="container">
+        <div class="section__header fade-in">
+          <span class="section__label">Our Team</span>
+          <h2>Meet the Creators</h2>
+          <p class="section__subtitle">A multidisciplinary team of designers, developers, and strategists ready to bring your vision to life.</p>
+        </div>
+
+        <div class="grid grid--4 stagger">
+          <div class="team-card fade-in">
+            <img class="team-card__avatar" src="assets/images/team-1.svg" alt="Alex Morgan, Founder & Creative Director">
+            <h3 class="team-card__name">Alex Morgan</h3>
+            <p class="team-card__role">Founder &amp; Creative Director</p>
+            <p class="team-card__bio">10+ years leading design teams. Passionate about user-centered design and brand storytelling.</p>
+          </div>
+
+          <div class="team-card fade-in">
+            <img class="team-card__avatar" src="assets/images/team-2.svg" alt="Jordan Lee, Lead Developer">
+            <h3 class="team-card__name">Jordan Lee</h3>
+            <p class="team-card__role">Lead Developer</p>
+            <p class="team-card__bio">Full-stack engineer specializing in performant web applications and modern architecture.</p>
+          </div>
+
+          <div class="team-card fade-in">
+            <img class="team-card__avatar" src="assets/images/team-3.svg" alt="Priya Sharma, UX Designer">
+            <h3 class="team-card__name">Priya Sharma</h3>
+            <p class="team-card__role">UX Designer</p>
+            <p class="team-card__bio">Combines research insights with design thinking to create intuitive user journeys.</p>
+          </div>
+
+          <div class="team-card fade-in">
+            <img class="team-card__avatar" src="assets/images/team-4.svg" alt="Daniel Kim, Brand Strategist">
+            <h3 class="team-card__name">Daniel Kim</h3>
+            <p class="team-card__role">Brand Strategist</p>
+            <p class="team-card__bio">Expert in building cohesive brand identities that resonate with target audiences.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Values -->
+    <section class="values section section--surface">
+      <div class="container">
+        <div class="section__header fade-in">
+          <span class="section__label">Our Values</span>
+          <h2>What Drives Us</h2>
+          <p class="section__subtitle">The principles that guide every project, decision, and relationship at Forge Studio.</p>
+        </div>
+
+        <div class="grid grid--4 stagger">
+          <div class="value-card fade-in">
+            <div class="value-card__icon">
+              <svg viewBox="0 0 24 24"><path d="M12 2a5 5 0 0 1 5 5c0 2.76-2.24 5-5 5s-5-2.24-5-5a5 5 0 0 1 5-5z"/><path d="M2 22l1.5-5.5L12 13l8.5 3.5L22 22"/><path d="M12 13v9"/></svg>
+            </div>
+            <h3 class="value-card__title">Innovation</h3>
+            <p class="value-card__desc">We push creative boundaries and embrace new technologies to deliver solutions that stand out.</p>
+          </div>
+
+          <div class="value-card fade-in">
+            <div class="value-card__icon">
+              <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3 class="value-card__title">Quality</h3>
+            <p class="value-card__desc">Every pixel, every line of code, every interaction — we obsess over the details that matter.</p>
+          </div>
+
+          <div class="value-card fade-in">
+            <div class="value-card__icon">
+              <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3 class="value-card__title">Collaboration</h3>
+            <p class="value-card__desc">We work as an extension of your team, keeping communication open and decisions transparent.</p>
+          </div>
+
+          <div class="value-card fade-in">
+            <div class="value-card__icon">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            </div>
+            <h3 class="value-card__title">Transparency</h3>
+            <p class="value-card__desc">No hidden agendas, no surprises. We believe in honest communication and clear expectations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-banner">
+      <div class="container fade-in">
+        <h2 class="cta-banner__title">Want to Join Our Team?</h2>
+        <p class="cta-banner__desc">We're always looking for talented people who share our passion for great design.</p>
+        <a href="#/faq-contact" class="btn btn--primary btn--lg">Say Hello</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================
+       PAGE: SERVICES
+       ============================================ -->
+  <main class="page" id="page-services">
+
+    <!-- Services Hero -->
+    <section class="services-hero section">
+      <div class="container">
+        <div class="fade-in">
+          <span class="section__label">Our Services</span>
+          <h1 class="services-hero__title">Crafted Solutions for Every Digital Need</h1>
+          <p class="services-hero__desc">From concept to launch, we offer comprehensive digital services tailored to help your business thrive in the modern landscape.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service 1: UI/UX Design -->
+    <section class="service-detail section">
+      <div class="container">
+        <div class="service-detail__inner">
+          <div class="service-detail__visual service-detail__visual--uiux fade-in-left">
+            <div class="service-detail__visual-icon">
+              <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+            </div>
+          </div>
+          <div class="fade-in-right">
+            <span class="service-detail__label">01 — UI/UX Design</span>
+            <h2 class="service-detail__title">Interfaces That Users Love</h2>
+            <p class="service-detail__desc">We create beautiful, intuitive digital interfaces backed by deep user research and tested with real users. Every design decision is intentional.</p>
+            <div class="service-detail__features">
+              <div class="service-detail__feature">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+                User Research &amp; Persona Development
+              </div>
+              <div class="service-detail__feature">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+                Wireframing &amp; Prototyping
+              </div>
+              <div class="service-detail__feature">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+                Visual Design &amp; Design Systems
+              </div>
+              <div class="service-detail__feature">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+                Usability Testing &amp; Iteration
+              </div>
+            </div>
+            <a href="#/faq-contact" class="btn btn--primary">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service 2: Web Development -->
+    <section class="service-detail section">
+      <div class="container">
+        <div class="service-detail__inner">
+          <div class="service-detail__visual service-detail__visual--webdev fade-in-left">
+            <div class="service-detail__visual-icon">
+              <svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+          </div>
+          <div class="fade-in-right">
+            <span class="service-detail__label">02 — Website Development</span>
+            <h2 class="service-detail__title">Fast, Scalable, Future-Ready</h2>
+            <p class="service-detail__desc">We build responsive, high-performance websites using modern frameworks and clean code. Speed, security, and scalability are baked in from day one.</p>
+            <div class="service-detail__features">
+              <div class="service-detail__feature">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+                Responsive Frontend Development
+              </div>
+              <div class="service-detail__feature">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+                CMS Integration &amp; E-commerce
+              </div>
+              <div class="service-detail__feature">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+                Performance Optimization
+              </div>
+              <div class="service-detail__feature">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+                SEO &amp; Accessibility Best Practices
+              </div>
+            </div>
+            <a href="#/faq-contact" class="btn btn--primary">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service 3: Branding -->
+    <section class="service-detail section">
+      <div class="container">
+        <div class="service-detail__inner">
+          <div class="service-detail__visual service-detail__visual--branding fade-in-left">
+            <div class="service-detail__visual-icon">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"/></svg>
+            </div>
+          </div>
+          <div class="fade-in-right">
+            <span class="service-detail__label">03 — Branding</span>
+            <h2 class="service-detail__title">Brands That Tell Stories</h2>
+            <p class="service-detail__desc">We craft cohesive brand identities that communicate your values, connect with your audience, and set you apart from the competition.</p>
+            <div class="service-detail__features">
+              <div class="service-detail__feature">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+                Logo &amp; Visual Identity Design
+              </div>
+              <div class="service-detail__feature">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+                Brand Strategy &amp; Positioning
+              </div>
+              <div class="service-detail__feature">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+                Brand Guidelines &amp; Style Guides
+              </div>
+              <div class="service-detail__feature">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+                Marketing Collateral Design
+              </div>
+            </div>
+            <a href="#/faq-contact" class="btn btn--primary">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service 4: Product Design -->
+    <section class="service-detail section">
+      <div class="container">
+        <div class="service-detail__inner">
+          <div class="service-detail__visual service-detail__visual--product fade-in-left">
+            <div class="service-detail__visual-icon">
+              <svg viewBox="0 0 24 24"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+            </div>
+          </div>
+          <div class="fade-in-right">
+            <span class="service-detail__label">04 — Product Design</span>
+            <h2 class="service-detail__title">From Idea to Impact</h2>
+            <p class="service-detail__desc">We take your product from concept to market-ready, ensuring every feature is designed with your users and business goals in mind.</p>
+            <div class="service-detail__features">
+              <div class="service-detail__feature">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+                Product Strategy &amp; Roadmapping
+              </div>
+              <div class="service-detail__feature">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+                MVP Design &amp; Rapid Prototyping
+              </div>
+              <div class="service-detail__feature">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+                Design Sprints &amp; Workshops
+              </div>
+              <div class="service-detail__feature">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+                Launch Support &amp; Iteration
+              </div>
+            </div>
+            <a href="#/faq-contact" class="btn btn--primary">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section class="services-process section">
+      <div class="container">
+        <div class="fade-in">
+          <h2 class="services-process__title">Our Process</h2>
+          <p class="services-process__desc">A proven 4-step approach that ensures every project is delivered on time, on budget, and beyond expectations.</p>
+        </div>
+
+        <div class="process-grid stagger">
+          <div class="process-step fade-in">
+            <div class="process-step__number">01</div>
+            <h3 class="process-step__title">Discover</h3>
+            <p class="process-step__desc">Deep-dive into your goals, audience, and competition to define the project foundation.</p>
+          </div>
+          <div class="process-step fade-in">
+            <div class="process-step__number">02</div>
+            <h3 class="process-step__title">Design</h3>
+            <p class="process-step__desc">Create wireframes, prototypes, and visual designs with your feedback at every step.</p>
+          </div>
+          <div class="process-step fade-in">
+            <div class="process-step__number">03</div>
+            <h3 class="process-step__title">Develop</h3>
+            <p class="process-step__desc">Build with clean code, modern tools, and thorough testing for quality assurance.</p>
+          </div>
+          <div class="process-step fade-in">
+            <div class="process-step__number">04</div>
+            <h3 class="process-step__title">Deliver</h3>
+            <p class="process-step__desc">Launch with confidence and provide ongoing support to ensure long-term success.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================
+       PAGE: PORTFOLIO
+       ============================================ -->
+  <main class="page" id="page-portfolio">
+
+    <!-- Portfolio Hero -->
+    <section class="portfolio-hero section">
+      <div class="container">
+        <div class="fade-in">
+          <span class="section__label">Our Work</span>
+          <h1 class="portfolio-hero__title">Projects We're Proud Of</h1>
+          <p class="portfolio-hero__desc">A curated collection of our best work across UI/UX, web development, branding, and product design.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="section">
+      <div class="container">
+        <!-- Filters -->
+        <div class="portfolio-filters fade-in">
+          <button class="portfolio-filter active" data-filter="all">All</button>
+          <button class="portfolio-filter" data-filter="uiux">UI/UX</button>
+          <button class="portfolio-filter" data-filter="web">Web Dev</button>
+          <button class="portfolio-filter" data-filter="branding">Branding</button>
+          <button class="portfolio-filter" data-filter="product">Product</button>
+        </div>
+
+        <!-- Grid -->
+        <div class="portfolio-grid stagger">
+          <div class="portfolio-item fade-in" data-category="uiux">
+            <div class="portfolio-item__image-wrap">
+              <img class="portfolio-item__image" src="assets/images/project-1.svg" alt="Nova Banking App">
+              <div class="portfolio-item__overlay">
+                <span class="btn btn--primary btn--sm">View Project</span>
+              </div>
+            </div>
+            <div class="portfolio-item__body">
+              <span class="badge portfolio-item__badge">UI/UX</span>
+              <h3 class="portfolio-item__title">Nova Banking App</h3>
+              <p class="portfolio-item__desc">Complete mobile banking experience redesign for a leading fintech startup, increasing user retention by 45%.</p>
+            </div>
+          </div>
+
+          <div class="portfolio-item fade-in" data-category="web">
+            <div class="portfolio-item__image-wrap">
+              <img class="portfolio-item__image" src="assets/images/project-2.svg" alt="Luxe Commerce">
+              <div class="portfolio-item__overlay">
+                <span class="btn btn--primary btn--sm">View Project</span>
+              </div>
+            </div>
+            <div class="portfolio-item__body">
+              <span class="badge portfolio-item__badge">Web Dev</span>
+              <h3 class="portfolio-item__title">Luxe Commerce</h3>
+              <p class="portfolio-item__desc">High-performance e-commerce platform for a luxury fashion brand with custom checkout flow.</p>
+            </div>
+          </div>
+
+          <div class="portfolio-item fade-in" data-category="product">
+            <div class="portfolio-item__image-wrap">
+              <img class="portfolio-item__image" src="assets/images/project-3.svg" alt="Metric Dashboard">
+              <div class="portfolio-item__overlay">
+                <span class="btn btn--primary btn--sm">View Project</span>
+              </div>
+            </div>
+            <div class="portfolio-item__body">
+              <span class="badge portfolio-item__badge">Product</span>
+              <h3 class="portfolio-item__title">Metric Dashboard</h3>
+              <p class="portfolio-item__desc">Real-time analytics dashboard for a B2B SaaS platform with interactive data visualizations.</p>
+            </div>
+          </div>
+
+          <div class="portfolio-item fade-in" data-category="branding">
+            <div class="portfolio-item__image-wrap">
+              <img class="portfolio-item__image" src="assets/images/project-4.svg" alt="Bloom Wellness">
+              <div class="portfolio-item__overlay">
+                <span class="btn btn--primary btn--sm">View Project</span>
+              </div>
+            </div>
+            <div class="portfolio-item__body">
+              <span class="badge portfolio-item__badge">Branding</span>
+              <h3 class="portfolio-item__title">Bloom Wellness</h3>
+              <p class="portfolio-item__desc">Complete brand identity for a wellness startup, including logo, color system, and brand guidelines.</p>
+            </div>
+          </div>
+
+          <div class="portfolio-item fade-in" data-category="uiux">
+            <div class="portfolio-item__image-wrap">
+              <img class="portfolio-item__image" src="assets/images/project-5.svg" alt="TaskFlow Pro">
+              <div class="portfolio-item__overlay">
+                <span class="btn btn--primary btn--sm">View Project</span>
+              </div>
+            </div>
+            <div class="portfolio-item__body">
+              <span class="badge portfolio-item__badge">UI/UX</span>
+              <h3 class="portfolio-item__title">TaskFlow Pro</h3>
+              <p class="portfolio-item__desc">Project management tool redesign focused on simplifying complex workflows for distributed teams.</p>
+            </div>
+          </div>
+
+          <div class="portfolio-item fade-in" data-category="web">
+            <div class="portfolio-item__image-wrap">
+              <img class="portfolio-item__image" src="assets/images/project-6.svg" alt="Artisan Eats">
+              <div class="portfolio-item__overlay">
+                <span class="btn btn--primary btn--sm">View Project</span>
+              </div>
+            </div>
+            <div class="portfolio-item__body">
+              <span class="badge portfolio-item__badge">Web Dev</span>
+              <h3 class="portfolio-item__title">Artisan Eats</h3>
+              <p class="portfolio-item__desc">Restaurant ordering platform with real-time tracking, reviews, and seamless payment integration.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio CTA -->
+    <section class="cta-banner">
+      <div class="container fade-in">
+        <h2 class="cta-banner__title">Have a Project in Mind?</h2>
+        <p class="cta-banner__desc">We'd love to hear about it. Let's discuss how we can bring your vision to life.</p>
+        <a href="#/faq-contact" class="btn btn--primary btn--lg">Start a Conversation</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================
+       PAGE: TESTIMONIALS
+       ============================================ -->
+  <main class="page" id="page-testimonials">
+
+    <!-- Testimonials Hero -->
+    <section class="testimonials-hero section">
+      <div class="container">
+        <div class="fade-in">
+          <span class="section__label">Testimonials</span>
+          <h1 class="testimonials-hero__title">Trusted by Ambitious Teams</h1>
+          <p class="testimonials-hero__desc">Real feedback from real clients. Here's what they have to say about working with Forge Studio.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Grid -->
+    <section class="section">
+      <div class="container">
+        <div class="testimonials-grid stagger">
+
+          <!-- Featured -->
+          <div class="testimonial-card testimonial-card--featured fade-in">
+            <div class="testimonial-card__stars">
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <p class="testimonial-card__quote">"Forge Studio didn't just redesign our product — they reimagined the entire user experience. The result was a 340% increase in user engagement and our best quarter in company history. Truly exceptional partners."</p>
+            <div class="testimonial-card__author">
+              <img class="testimonial-card__avatar" src="assets/images/avatar-1.svg" alt="Sarah Chen">
+              <div>
+                <div class="testimonial-card__name">Sarah Chen</div>
+                <div class="testimonial-card__role">CEO, TechVenture</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card fade-in">
+            <div class="testimonial-card__stars">
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <p class="testimonial-card__quote">"The attention to detail is remarkable. They understood our users better than we did."</p>
+            <div class="testimonial-card__author">
+              <img class="testimonial-card__avatar" src="assets/images/avatar-2.svg" alt="Marcus Rodriguez">
+              <div>
+                <div class="testimonial-card__name">Marcus Rodriguez</div>
+                <div class="testimonial-card__role">Founder, Elevate Health</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card fade-in">
+            <div class="testimonial-card__stars">
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <p class="testimonial-card__quote">"Working with Forge Studio was a game-changer for our brand. They delivered a cohesive identity that perfectly captures who we are."</p>
+            <div class="testimonial-card__author">
+              <img class="testimonial-card__avatar" src="assets/images/avatar-3.svg" alt="Emily Watson">
+              <div>
+                <div class="testimonial-card__name">Emily Watson</div>
+                <div class="testimonial-card__role">CMO, GreenLeaf Co</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card fade-in">
+            <div class="testimonial-card__stars">
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <p class="testimonial-card__quote">"Professional, creative, and incredibly responsive. They delivered our e-commerce platform ahead of schedule and it exceeded every expectation."</p>
+            <div class="testimonial-card__author">
+              <img class="testimonial-card__avatar" src="assets/images/avatar-4.svg" alt="David Park">
+              <div>
+                <div class="testimonial-card__name">David Park</div>
+                <div class="testimonial-card__role">CTO, StyleVault</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card fade-in">
+            <div class="testimonial-card__stars">
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <p class="testimonial-card__quote">"From ideation to launch, Forge Studio guided us through every step. Our app launched to rave reviews from users."</p>
+            <div class="testimonial-card__author">
+              <img class="testimonial-card__avatar" src="assets/images/avatar-5.svg" alt="Lisa Nakamura">
+              <div>
+                <div class="testimonial-card__name">Lisa Nakamura</div>
+                <div class="testimonial-card__role">Product Lead, FitTrack</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card fade-in">
+            <div class="testimonial-card__stars">
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <p class="testimonial-card__quote">"Outstanding work on our branding refresh. The new identity has elevated our market positioning significantly."</p>
+            <div class="testimonial-card__author">
+              <img class="testimonial-card__avatar" src="assets/images/avatar-6.svg" alt="James O'Brien">
+              <div>
+                <div class="testimonial-card__name">James O'Brien</div>
+                <div class="testimonial-card__role">CEO, CloudSync</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="testimonials-stats section section--surface">
+      <div class="container">
+        <div class="testimonials-stats__inner">
+          <div class="stat-item fade-in">
+            <div class="stat-item__number" data-count="150" data-suffix="+">0+</div>
+            <div class="stat-item__label">Projects Completed</div>
+          </div>
+          <div class="stat-item fade-in">
+            <div class="stat-item__number" data-count="98" data-suffix="%">0%</div>
+            <div class="stat-item__label">Client Satisfaction</div>
+          </div>
+          <div class="stat-item fade-in">
+            <div class="stat-item__number" data-count="50" data-suffix="+">0+</div>
+            <div class="stat-item__label">Happy Clients</div>
+          </div>
+          <div class="stat-item fade-in">
+            <div class="stat-item__number" data-count="12" data-suffix="">0</div>
+            <div class="stat-item__label">Industry Awards</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================
+       PAGE: FAQ & CONTACT
+       ============================================ -->
+  <main class="page" id="page-faq-contact">
+
+    <!-- FAQ Hero -->
+    <section class="faq-hero section">
+      <div class="container">
+        <div class="fade-in">
+          <span class="section__label">FAQ &amp; Contact</span>
+          <h1 class="faq-hero__title">Have Questions? We Have Answers.</h1>
+          <p class="faq-hero__desc">Find answers to common questions below, or reach out directly — we'd love to hear from you.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Accordion -->
+    <section class="faq section">
+      <div class="container">
+        <div class="section__header fade-in">
+          <span class="section__label">Frequently Asked</span>
+          <h2>Common Questions</h2>
+        </div>
+
+        <div class="faq__list">
+          <div class="faq-item fade-in">
+            <button class="faq-item__question" aria-expanded="false">
+              <span class="faq-item__question-text">What services does Forge Studio offer?</span>
+              <span class="faq-item__icon">
+                <svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              </span>
+            </button>
+            <div class="faq-item__answer">
+              <div class="faq-item__answer-inner">We offer UI/UX Design, Website Development, Branding, and Product Design services. Each service is tailored to your specific needs and goals, whether you're a startup looking for your first digital product or an established business in need of a refresh.</div>
+            </div>
+          </div>
+
+          <div class="faq-item fade-in">
+            <button class="faq-item__question" aria-expanded="false">
+              <span class="faq-item__question-text">How long does a typical project take?</span>
+              <span class="faq-item__icon">
+                <svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              </span>
+            </button>
+            <div class="faq-item__answer">
+              <div class="faq-item__answer-inner">Project timelines vary based on scope and complexity. A simple website typically takes 4–6 weeks, while a full product design project can take 8–12 weeks. We'll provide a detailed timeline during our discovery phase so you know exactly what to expect.</div>
+            </div>
+          </div>
+
+          <div class="faq-item fade-in">
+            <button class="faq-item__question" aria-expanded="false">
+              <span class="faq-item__question-text">What is your pricing structure?</span>
+              <span class="faq-item__icon">
+                <svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              </span>
+            </button>
+            <div class="faq-item__answer">
+              <div class="faq-item__answer-inner">We offer both project-based pricing and retainer options. Every project gets a custom quote based on scope, timeline, and deliverables. We believe in transparency — no hidden fees, no surprises. Contact us for a free consultation and estimate.</div>
+            </div>
+          </div>
+
+          <div class="faq-item fade-in">
+            <button class="faq-item__question" aria-expanded="false">
+              <span class="faq-item__question-text">Do you work with startups or only established companies?</span>
+              <span class="faq-item__icon">
+                <svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              </span>
+            </button>
+            <div class="faq-item__answer">
+              <div class="faq-item__answer-inner">We love working with businesses at every stage. Many of our best projects have been with early-stage startups looking to build their first product. We also work with established companies seeking to modernize their digital presence.</div>
+            </div>
+          </div>
+
+          <div class="faq-item fade-in">
+            <button class="faq-item__question" aria-expanded="false">
+              <span class="faq-item__question-text">What does your design process look like?</span>
+              <span class="faq-item__icon">
+                <svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              </span>
+            </button>
+            <div class="faq-item__answer">
+              <div class="faq-item__answer-inner">Our process follows four key phases: Discover (understanding your goals and audience), Design (wireframes, prototypes, visual design), Develop (clean code, testing, optimization), and Deliver (launch and ongoing support). You're involved at every step.</div>
+            </div>
+          </div>
+
+          <div class="faq-item fade-in">
+            <button class="faq-item__question" aria-expanded="false">
+              <span class="faq-item__question-text">Do you provide ongoing support after launch?</span>
+              <span class="faq-item__icon">
+                <svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              </span>
+            </button>
+            <div class="faq-item__answer">
+              <div class="faq-item__answer-inner">Absolutely! We offer post-launch support packages that include maintenance, updates, analytics monitoring, and iterative improvements based on user feedback. We're committed to your long-term success.</div>
+            </div>
+          </div>
+
+          <div class="faq-item fade-in">
+            <button class="faq-item__question" aria-expanded="false">
+              <span class="faq-item__question-text">Can you work with our existing development team?</span>
+              <span class="faq-item__icon">
+                <svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              </span>
+            </button>
+            <div class="faq-item__answer">
+              <div class="faq-item__answer-inner">Yes! We frequently collaborate with in-house teams. We can embed designers within your team, provide design systems and handoff documentation, or work alongside your developers to ensure pixel-perfect implementation.</div>
+            </div>
+          </div>
+
+          <div class="faq-item fade-in">
+            <button class="faq-item__question" aria-expanded="false">
+              <span class="faq-item__question-text">How do we get started?</span>
+              <span class="faq-item__icon">
+                <svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              </span>
+            </button>
+            <div class="faq-item__answer">
+              <div class="faq-item__answer-inner">Simply fill out the contact form below or email us at hello@forgestudio.com. We'll schedule a free 30-minute discovery call to discuss your project, understand your goals, and explore how we can help bring your vision to life.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact section section--surface" id="contact">
+      <div class="container">
+        <div class="contact__inner">
+          <div class="contact__info fade-in-left">
+            <span class="contact__label">Get in Touch</span>
+            <h2 class="contact__title">Let's Build Something Great Together</h2>
+            <p class="contact__desc">Have a project idea, a question, or just want to say hello? We'd love to hear from you. Fill out the form and we'll get back within 24 hours.</p>
+
+            <div class="contact__details">
+              <div class="contact__detail">
+                <div class="contact__detail-icon">
+                  <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <div>
+                  <div class="contact__detail-label">Email</div>
+                  <div class="contact__detail-value">hello@forgestudio.com</div>
+                </div>
+              </div>
+
+              <div class="contact__detail">
+                <div class="contact__detail-icon">
+                  <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </div>
+                <div>
+                  <div class="contact__detail-label">Phone</div>
+                  <div class="contact__detail-value">+1 (555) 123-4567</div>
+                </div>
+              </div>
+
+              <div class="contact__detail">
+                <div class="contact__detail-icon">
+                  <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div>
+                  <div class="contact__detail-label">Location</div>
+                  <div class="contact__detail-value">San Francisco, CA</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="fade-in-right">
+            <form class="contact-form" id="contact-form">
+              <div class="contact-form__group">
+                <label class="contact-form__label" for="contact-name">Your Name</label>
+                <input class="contact-form__input" type="text" id="contact-name" name="name" placeholder="John Doe" required>
+              </div>
+              <div class="contact-form__group">
+                <label class="contact-form__label" for="contact-email">Email Address</label>
+                <input class="contact-form__input" type="email" id="contact-email" name="email" placeholder="john@example.com" required>
+              </div>
+              <div class="contact-form__group">
+                <label class="contact-form__label" for="contact-message">Your Message</label>
+                <textarea class="contact-form__textarea" id="contact-message" name="message" placeholder="Tell us about your project..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn--primary contact-form__submit">Send Message</button>
+            </form>
+
+            <div class="contact-form__success">
+              <div class="contact-form__success-icon">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <h3 class="contact-form__success-title">Message Sent!</h3>
+              <p class="contact-form__success-desc">Thank you for reaching out. We'll get back to you within 24 hours.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Map Placeholder -->
+        <div class="contact-map fade-in">
+          <div class="contact-map__placeholder">
+            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <p>San Francisco, California</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================
+       FOOTER
+       ============================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <div class="footer__logo">Forge<span>.</span></div>
+          <p>We design and build digital experiences that matter. Partnering with ambitious teams to create exceptional products.</p>
+          <div class="footer__socials">
+            <a href="#" class="footer__social-icon" aria-label="Twitter">
+              <svg viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+            </a>
+            <a href="#" class="footer__social-icon" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="#" class="footer__social-icon" aria-label="Dribbble">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"/></svg>
+            </a>
+            <a href="#" class="footer__social-icon" aria-label="Instagram">
+              <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer__heading">Pages</h4>
+          <div class="footer__links">
+            <a href="#/home" class="footer__link">Home</a>
+            <a href="#/about" class="footer__link">About</a>
+            <a href="#/services" class="footer__link">Services</a>
+            <a href="#/portfolio" class="footer__link">Portfolio</a>
+            <a href="#/testimonials" class="footer__link">Testimonials</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer__heading">Services</h4>
+          <div class="footer__links">
+            <a href="#/services" class="footer__link">UI/UX Design</a>
+            <a href="#/services" class="footer__link">Web Development</a>
+            <a href="#/services" class="footer__link">Branding</a>
+            <a href="#/services" class="footer__link">Product Design</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer__heading">Contact</h4>
+          <div class="footer__links">
+            <a href="#/faq-contact" class="footer__link">Get in Touch</a>
+            <span class="footer__link">hello@forgestudio.com</span>
+            <span class="footer__link">+1 (555) 123-4567</span>
+            <span class="footer__link">San Francisco, CA</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <span>&copy; 2026 Forge Studio. All rights reserved.</span>
+        <span>Designed with ♥ by Forge Studio</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/app.js"></script>
+</body>
+</html>

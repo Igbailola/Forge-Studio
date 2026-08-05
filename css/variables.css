@@ -1,0 +1,89 @@
+/* ============================================
+   Forge Studio — Design Tokens
+   Source of truth: AGENTS.md
+   ============================================ */
+
+:root {
+  /* ---- Colors ---- */
+  --color-primary: #0F0F0F;
+  --color-accent: #FF4D00;
+  --color-accent-hover: #E04400;
+  --color-accent-light: rgba(255, 77, 0, 0.08);
+  --color-bg: #FFFFFF;
+  --color-surface: #F6F6F6;
+  --color-muted: #888888;
+  --color-border: #E0E0E0;
+  --color-white: #FFFFFF;
+  --color-dark-bg: #0F0F0F;
+  --color-dark-surface: #1A1A1A;
+  --color-dark-muted: #AAAAAA;
+
+  /* ---- Typography ---- */
+  --font-heading: 'Plus Jakarta Sans', 'Inter', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* Font weights */
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  /* Type scale */
+  --fs-h1: 56px;
+  --fs-h2: 44px;
+  --fs-h3: 32px;
+  --fs-h4: 24px;
+  --fs-h5: 20px;
+  --fs-h6: 18px;
+  --fs-body: 16px;
+  --fs-body-lg: 18px;
+  --fs-caption: 13px;
+  --fs-small: 14px;
+
+  /* Line heights */
+  --lh-heading: 1.2;
+  --lh-body: 1.6;
+  --lh-tight: 1.3;
+
+  /* ---- Spacing (8px base) ---- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+
+  /* Section padding */
+  --section-py: 80px;
+  --section-py-mobile: 48px;
+
+  /* Component gap */
+  --gap: 24px;
+
+  /* ---- Border Radius ---- */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+
+  /* ---- Shadows ---- */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.1);
+  --shadow-hover: 0 12px 40px rgba(0, 0, 0, 0.12);
+
+  /* ---- Transitions ---- */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 400ms ease;
+
+  /* ---- Layout ---- */
+  --container-max: 1200px;
+  --container-narrow: 800px;
+  --navbar-height: 72px;
+}
